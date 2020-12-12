@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    전골집
+  </title>
+  <meta charset="utf-8">
+  <style>
+    /*하이퍼링크 색바뀜 방지*/
+    a { text-decoration: none; color: white; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; color: #f89b00; }
+
+    /*body{margin:auto;}*/
+    .wrapper{max-width: 1600px; min-height: 100%; margin:0 auto;}
+
+    /* 메인콘텐츠 기본설정 */
+    body{margin:auto; background-color: black;}
+    .main {
+      margin: auto;
+      padding-top:60px;
+      font-size: 20px;
+    }
+    /*헤더 css 설정*/
+    header{height:60px; background-color:#1B1B1B; border:1px solid: #1B1B1B;
+            position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
+    h1{height:60px; line-height: 60px; float:left; margin:0 0 0 0px;}
+    ul{list-style:none; margin:auto;}
+    .menu{float:right;}
+    .menu li{float:left; color:none;}
+    .menu a{line-height: 60px; padding: 0 15px; display:block;}
+
+
+</style>
+
+</head>
+
+<body>
+  <div class="wrapper"><!--wrapper start-->
+  <header>
+    <div class="wrapper"><!--wrapper start-->
+      <h1>
+        <a href="1main_page.html" target="_self" title="전골집">
+        <img  src="logo.png" width=140px; >
+        </a>
+      </h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="2e-cig_page.html">전자담배</a></li>
+          <li><a href="Tool/Ohm_calculator.html">옴 계산기</a></li>
+          <li><a href="Tool/Gol.html">골방간다</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="main">
+  <p>
+    <img onclick="alert('봄이는 귀여워')" src="Main_image.jpg" width="270px">
+
+  </p>
+  </div>
+</div><!--wrapper end-->
+</body>
+</html>
